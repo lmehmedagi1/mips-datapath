@@ -1,0 +1,52 @@
+ command line:
+   ./datapath_testbench_vhd_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  55281
+WARNING:Simulator:29 - at 0 ns: Warning: No entity is bound for inst
+   datapath_testbench_vhd/uut/pm5 of Component MUX2_1
+WARNING:Simulator:29 - at 0 ns: Warning: No entity is bound for inst
+   datapath_testbench_vhd/uut/pm8 of Component MUX2_1
+WARNING:Simulator:29 - at 0 ns: Warning: No entity is bound for inst
+   datapath_testbench_vhd/uut/pm12 of Component MUX2_1
+
+Wed May 29 11:16:06 2019
+
+Total Line Count : 270
+
+ Elaboration time : 0.078125 sec.
+
+ Estimate current memory usage : 164.59 Meg. 
+
+ Total Signals          : 83
+ Total Nets             : 5563
+ Total Signal Drivers   : 31
+ Total Blocks           : 16
+ Total Primitive Blocks : 10
+ Total Processes        : 23
+ Total Traceable Variables  : 0
+ Total Scalar Nets and Variables : 5563
+ntrace select -o on -n /datapath_testbench_vhd/tb_clk 
+ntrace select -o on -n /datapath_testbench_vhd/tb_address 
+ntrace select -o on -n /datapath_testbench_vhd/tb_instruction 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+WARNING:Simulator:29 - at 0 ns: Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an
+   arithmetic operand, the result will be 'X'(es).
+WARNING:Simulator:29 - at 0 ns: Warning: CONV_INTEGER: There is an
+   'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+WARNING:Simulator:29 - at 0 ns: Warning: CONV_INTEGER: There is an
+   'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+WARNING:Simulator:29 - at 0 ns: Warning: CONV_INTEGER: There is an
+   'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+WARNING:Simulator:29 - at 0 ns: Warning: CONV_INTEGER: There is an
+   'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+
+ Simulation time 0.171875 sec.
+
+ Estimate current memory usage : 175.051 Meg. 
+
+Wed May 29 11:16:17 2019
+
